@@ -32,7 +32,7 @@ const WheelCurvedPickerNative = requireNativeComponent('WheelCurvedPicker', Whee
 
 class WheelCurvedPicker extends React.Component {
 
-	propTypes: {
+	propTypes = {
 		...View.propTypes,
 
 		data: PropTypes.array,
@@ -106,7 +106,7 @@ class WheelCurvedPicker extends React.Component {
 }
 
 class Item extends React.Component {
-	propTypes: {
+	propTypes = {
 		value: React.PropTypes.any, // string or integer basically
 		label: React.PropTypes.string,
 	}
